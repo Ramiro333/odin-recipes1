@@ -1,0 +1,27 @@
+.heading {
+    text-align: center;
+    font-size: 80px;
+    background-color: rgb(116, 76, 18);
+}
+
+.heading.secundario {
+    font-size: 30px;
+    background-color: rgb(175, 104, 57);
+}
+
+.parrafo {
+    background-color: rgba(255, 166, 107, 0.363);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.item {
+    font-size: 20px;
+    background-color: rgba(235, 130, 44, 0.699);
+
+}
+
+img {
+    width: auto;
+    height: 350px;
+}
