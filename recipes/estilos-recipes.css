@@ -1,7 +1,9 @@
 .heading {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 80px;
-    background-color: rgb(116, 76, 18);
+    background-color: rgb(116, 76, 18)
+    
 }
 
 .heading.secundario {
@@ -9,19 +11,46 @@
     background-color: rgb(175, 104, 57);
 }
 
+.heading.index {
+    color: rgb(2, 26, 17);
+    background-color: rgb(138, 39, 39);
+    font-size: 100px;
+    font-weight: bold
+}
+
 .parrafo {
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(255, 166, 107, 0.363);
     font-weight: 500;
     font-size: 25px;
 }
 
 .item {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: rgba(235, 130, 44, 0.699);
 
+}
+.item.principal {
+    background-color: rgb(245, 148, 148);
+    font-weight: 600;
+    font-size: 30px;  
 }
 
 img {
     width: auto;
     height: 350px;
+}
+
+.img-index {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+}
+
+body {
+    background-color: rgba(163, 101, 101, 0.726);
 }
