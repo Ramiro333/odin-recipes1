@@ -2,8 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 80px;
-    background-color: rgb(116, 76, 18)
-    
+    background-color: rgb(116, 76, 18);
 }
 
 .heading.secundario {
@@ -12,10 +11,18 @@
 }
 
 .heading.index {
-    color: rgb(2, 26, 17);
-    background-color: rgb(138, 39, 39);
+    color: rgba(9, 41, 54, 0.795);
+    background-color: rgba(138, 39, 39, 0.747);
     font-size: 100px;
-    font-weight: bold
+    font-weight: bold;
+    border: 8px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 16px ;
+    margin-top: 16px;
+    border: 6px solid black
+
 }
 
 .parrafo {
@@ -29,12 +36,28 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: rgba(235, 130, 44, 0.699);
-
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 8px;
+    margin-top: 16px;
 }
 .item.principal {
     background-color: rgb(245, 148, 148);
     font-weight: 600;
     font-size: 30px;  
+    border: 6px solid black;
+    
+
+}
+
+.item-index {
+    display: block;
+    text-align: center;
+    margin:  10px;
+    border: 6px solid rgb(128, 0, 0);
+    padding: 8px;
+    background-color: rgba(62, 232, 255, 0.575);
+    
 }
 
 img {
@@ -48,7 +71,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%
+    margin-top: 0px;
+    border: 6px solid black;
 }
 
 body {
